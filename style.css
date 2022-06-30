@@ -5,16 +5,22 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-color: #3a2817;
+}
+
+.hero-img {
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
     background: url('images/Havana.jpg');
     background-size: cover;
-    background-color: #3a2817;
+    z-index: -1;
 }
 
 .wrapper {
     margin: 0 auto;
     padding: 0 1rem;
     max-width: 1024px;
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -22,9 +28,9 @@ body {
 }
 
 .card {
-    height: 10rem;
-    flex: 1 1 15rem;
-    flex: 0 1 15rem;
+    height: 70vh;
+    flex: 1 1 20rem;
+    flex: 0 1 20rem;
     margin: 5px;
 }
 
