@@ -1,0 +1,41 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('images/Havana.jpg');
+    background-size: cover;
+    background-color: #3a2817;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 1024px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(82, 0, 106, .4);
+}
+
+.card {
+    height: 10rem;
+    flex: 1 1 15rem;
+    flex: 0 1 15rem;
+    margin: 5px;
+}
+
+.one {
+    background-color: rgb(205, 17, 59);
+}
+
+.two {
+    background-color: rgb(255, 118, 0);
+}
+
+.three {
+    background-color: rgb(255, 169, 0);
+}
