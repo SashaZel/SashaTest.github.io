@@ -8,6 +8,13 @@ body {
     background-color: #3a2817;
 }
 
+header {
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
 .hero-img {
     position: absolute;
     width: 100vw;
