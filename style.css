@@ -52,3 +52,15 @@ header {
 .three {
     background-color: rgb(255, 169, 0);
 }
+
+footer {
+    height: 20vh;
+    background-color: chartreuse;
+}
+
+.footer-wrapper {
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 1024px;
+    background-color: rgb(82, 0, 106, .4);
+}
